@@ -16,7 +16,7 @@ slots.set('slot_4', Category.CoffeTable);
 
 const sofaItems: ItemDesc[] = [
   {
-    name: 'sofa 11',
+    name: 'sofasilla 11',
     url: cdnUrl + '/models/sofa/11/scene.gltf',
     categories: [Category.Sofa],
     position: new Vector3(0, -0.5, 0),
@@ -24,7 +24,7 @@ const sofaItems: ItemDesc[] = [
     scale: new Vector3(0.009, 0.009, 0.009),
   },
   {
-    name: 'sofa 7',
+    name: 'sofasilla 7',
     url: cdnUrl + '/models/sofa/7/scene.gltf',
     categories: [Category.Sofa],
     position: new Vector3(5.2, -0.5, 0),
@@ -32,7 +32,7 @@ const sofaItems: ItemDesc[] = [
     scale: new Vector3(1, 1, 1),
   },
   {
-    name: 'sofa 9',
+    name: 'sofasilla 9',
     url: cdnUrl + '/models/sofa/9/scene.gltf',
     categories: [Category.Sofa],
     position: new Vector3(0, 0, 0),
@@ -110,7 +110,7 @@ const endTableItems: ItemDesc[] = [
 
 const armChairItems: ItemDesc[] = [
   {
-    name: 'arm chair 2',
+    name: 'silla 2',
     url: cdnUrl + '/models/arm-chair/2/scene.gltf',
     categories: [Category.EndTable],
     position: new Vector3(-0.27, -0.51, -0.35),
